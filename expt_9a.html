@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Multiplication Table</title>
+  <script>
+    function showMultiplicationTable() {
+      let n = prompt("Enter a number:");
+      n = parseInt(n);
+      let table = "";
+      for (let i = 1; i <= 10; i++) {
+        table += n + " x " + i + " = " + (n * i) + "\n";
+      }
+      alert(table);
+    }
+    window.onload = showMultiplicationTable;
+  </script>
+</head>
+<body>
+</body>
+</html>

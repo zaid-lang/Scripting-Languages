@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>JavaScript Functions</title>
+  <script>
+    // Check if number is prime
+    function isPrime(n) {
+      if (n < 2) return false;
+      for (let i = 2; i <= Math.sqrt(n); i++) {
+        if (n % i === 0) return false;
+      }
+      return true;
+    }
+
+    // Calculate factorial
+    function factorial(n) {
+      let fact = 1;
+      for (let i = 2; i <= n; i++) {
+        fact *= i;
+      }
+      return fact;
+    }
+
+    // Sum of digits
+    function sumOfDigits(n) {
+      return n.toString().split('').reduce((sum, digit) => sum + parseInt(digit), 0);
+    }
+
+    // Function to handle form submission
+    function processNumber() {
+      const num = parseInt(document.getElementById('number').value);
+      let output = "";
+      output += "Prime: " + (isPrime(num) ? "Yes" : "No") + "\n";
+      output += "Factorial: " + factorial(num) + "\n";
+      output += "Sum of Digits: " + sumOfDigits(num) + "\n";
+      alert(output);
+      return false; // prevent form submission
+    }
+  </script>
+</head>
+<body>
+  <h2>Number Functions</h2>
+  <form onsubmit="return processNumber();">
+    <label for="number">Enter a number:</label>
+    <input type="number" id="number" required>
+    <button type="submit">Submit</button>
+  </form>
+</body>
+</html>

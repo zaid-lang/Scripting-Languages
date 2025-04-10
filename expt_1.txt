@@ -1,0 +1,46 @@
+1. Explanation of Unix Commands
+File Commands
+file: Determines file type.
+
+cp, mv, rm: Copy, move, or remove files.
+
+touch: Creates an empty file or updates a file’s timestamp.
+
+Directory Commands
+ls: Lists contents of a directory.
+
+cd: Changes the current working directory.
+
+mkdir: Creates a new directory.
+
+rmdir: Removes empty directories.
+
+Terminal Commands
+Commands such as echo, pwd, and history help you get information about the environment.
+
+kill and ps (or top) are used to manage processes.
+
+Help Commands
+man: Displays the manual for commands.
+
+info: Shows detailed documentation.
+
+--help: Many commands support this flag to display usage.
+
+Information Commands
+uname: Displays system information.
+
+df, du: Show disk usage statistics.
+
+Unix Filterers
+grep: Searches for patterns in text.
+
+awk: Processes and analyzes text data.
+
+sed: Stream editor for text manipulation.
+
+File Permission Commands
+chmod: Changes file or directory permissions.
+
+chown: Changes file owner and group.
+

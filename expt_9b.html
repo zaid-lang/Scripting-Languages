@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Sum Two Numbers</title>
+  <script>
+    function sumNumbers() {
+      let num1 = prompt("Enter the first number:");
+      let num2 = prompt("Enter the second number:");
+      if (confirm("Do you want to add the two numbers?")) {
+        let sum = parseFloat(num1) + parseFloat(num2);
+        alert("The sum of the two numbers is: " + sum);
+      } else {
+        alert("Operation cancelled.");
+      }
+    }
+    window.onload = sumNumbers;
+  </script>
+</head>
+<body>
+</body>
+</html>
