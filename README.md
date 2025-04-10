@@ -1,4 +1,4 @@
-# Scipting-Languages-
+# Scripting-Languages
 # Lab Exam Programs
 
 This repository contains 12 programs developed as part of the lab exam. The collection demonstrates various scripting languages and techniques that cover Unix shell commands, Perl scripting, JavaScript, HTML, and PHP with database operations. The programs cover the following areas:
